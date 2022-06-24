@@ -54,6 +54,7 @@
 -w /etc/audit/ -p wa -k auditconfig
 -w /etc/libaudit.conf -p wa -k auditconfig
 -w /etc/audisp/ -p wa -k audispconfig
+-w /etc/sysconfig/auditd -p wa -k auditconfig
 
 ## Monitor for use of audit management tools
 -w /sbin/auditctl -p x -k audittools
